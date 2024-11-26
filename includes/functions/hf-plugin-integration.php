@@ -240,7 +240,7 @@ if (!function_exists('zammad_hf_process_form_action')) {
                 'sender'        => 'Customer',
                 'subject'       => $subject,
                 'body'          => $message,
-                'content_type'  => 'text/html',
+                'content_type'  => 'text/plain',
                 'type'          => 'web',
                 'internal'      => false,
 				'attachments'	=> $attachments
